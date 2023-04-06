@@ -1,11 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <>
-    <h1>
-      Exalters are Working here
-    </h1>
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<Home/>}/>
+   </Routes>
+   </BrowserRouter>
     </>
   );
 }
