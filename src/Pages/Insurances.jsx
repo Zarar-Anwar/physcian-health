@@ -3,7 +3,11 @@ import { CircularProgress } from "@mui/material"
 function Insurances() {
   return (
     <>
-      <h1>Under Construction <CircularProgress/></h1>
+    
+    <div style={{textAlign:'center'}}>
+    <CircularProgress/>
+    <h1 >UnderConstruction</h1>
+    </div>
     </>
   )
 }

@@ -1,9 +1,12 @@
+import { useMediaQuery, useTheme } from "@mui/material"
 import { Link } from "react-router-dom"
+import DrawerCom from "./Drawer"
 
 
 
 const Navbar=()=>{
-    
+    const theme=useTheme()
+    const isMatch=useMediaQuery(theme.breakpoints.down('md'))
     return (
         <>
           <div class="preloader">
@@ -19,7 +22,20 @@ const Navbar=()=>{
                 </div>
             </div>
         </div>
-    
+        {isMatch ?(
+            <>
+                <div style={{display:"flex",marginTop:'5px'}}>
+            <div style={{textAlign:'right'}}>
+              <DrawerCom />
+         </div>
+         <div style={{marginLeft:'auto'}}>
+              <Link  class="navbar-brand" to="/">
+              <img   src="../../assets/img/logo.png" alt="logo"/>
+          </Link>
+                </div>
+            </div>
+          </>
+        ):(
         <header class="header-area">
            
 
@@ -59,6 +75,8 @@ const Navbar=()=>{
             </div>
            
         </header>
+           )
+        }
         </>
     )
 }
