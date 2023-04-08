@@ -111,8 +111,8 @@ p:last-child {
 }
 
 .ptb-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*btn(primary&light)*/

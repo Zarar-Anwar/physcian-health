@@ -5,32 +5,13 @@ function Footer() {
     <>
         <section className="footer-area">
             <div className="container">
-                <div className="subscribe-area">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12">
-                            <div className="newsletter-content">
-                                <h2>Join Our Newsletter</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-md-12">
-                            <form className="newsletter-form" data-toggle="validator">
-                                <input type="email" className="input-newsletter" placeholder="Enter your email" name="EMAIL" required autoComplete="off"/>
-
-                                <button type="submit">Send<i className="fas fa-paper-plane"></i></button>
-                                <div id="validator-newsletter" className="form-result"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
+               
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-footer-widget">
                             <div className="logo">
                                 <Link to="/"><img src="../Pages/assets/img/white-logo.png" alt=""/></Link>
-                                <p>Powerfully flexible html template for medical &amp; health related organizations, institutes, clinics and businesses.</p>
+                                <p>Medical Clinic &amp; health related organizations, institutes, clinics and businesses.</p>
                             </div>
 
                             <ul className="social">
@@ -73,10 +54,6 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                </div>
-
-                <div class="copyright-area">
-                    <p>© Fovia is Proudly Owned by <Link to="https://envytheme.com/" target="_blank">EnvyTheme</Link></p>
                 </div>
             </div>
         </section>

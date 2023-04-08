@@ -14,10 +14,10 @@ function DrawerCom() {
       >
         {
             PAGES.map((page,index)=>(
-          <List  key={index} sx={{background:'#19ce67'}}>
-            <ListItemButton component={Link} to={page.link}>
+          <List  key={index} >
+            <ListItemButton onClick={()=> setopenDrawer(!openDrawer)} component={Link} to={page.link}>
                 <ListItemIcon>
-                    <ListItemText sx={{color:'white'}}>
+                    <ListItemText sx={{color:'#19ce67'}}>
                         {page.name}
                     </ListItemText>
                 </ListItemIcon>

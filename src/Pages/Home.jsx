@@ -1,12 +1,7 @@
-import { CircularProgress } from "@mui/material"
-
 function Home() {
   return (
     <>
-    <div style={{textAlign:'center'}}>
-    <CircularProgress/>
-    <h1 >UnderConstruction</h1>
-    </div>
+      <h1>Home</h1>
     </>
   )
 }
