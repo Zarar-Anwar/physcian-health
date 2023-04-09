@@ -27,7 +27,7 @@ function Aboutus() {
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-doctor-box">
                             <div class="doctor-image">
                                 <img src="assets/img/doctor/1.jpg" alt=""/>
@@ -49,7 +49,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-doctor-box">
                             <div class="doctor-image">
                                 <img src="assets/img/doctor/5.jpg" alt=""/>
@@ -71,7 +71,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-doctor-box">
                             <div class="doctor-image">
                                 <img src="assets/img/doctor/2.jpg" alt=""/>
@@ -93,7 +93,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-doctor-box">
                             <div class="doctor-image">
                                 <img src="assets/img/doctor/3.jpg" alt=""/>
@@ -115,7 +115,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-doctor-box">
                             <div class="doctor-image">
                                 <img src="assets/img/doctor/4.jpg" alt=""/>
@@ -137,7 +137,7 @@ function Aboutus() {
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-doctor-box">
                             <div class="doctor-image">
                                 <img src="assets/img/doctor/6.jpg" alt=""/>
