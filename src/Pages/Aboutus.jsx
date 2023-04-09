@@ -18,7 +18,151 @@ function Aboutus() {
                 </div>
             </div>
         </section>
+        <section class="doctor-area ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <span>Doctors</span>
+                    <h2>Meet Our Qualified Physicians</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
 
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box">
+                            <div class="doctor-image">
+                                <img src="assets/img/doctor/1.jpg" alt=""/>
+    
+                                <Link to="/about" class="details-btn"><i class="fas fa-plus"></i></Link>
+                            </div>
+    
+                            <div class="doctor-content">
+                                <h3><Link to="/about">Dr. Omar Ahmed</Link></h3>
+                                <span>Cardiologists</span>
+    
+                                <ul class="social">
+                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box">
+                            <div class="doctor-image">
+                                <img src="assets/img/doctor/5.jpg" alt=""/>
+    
+                                <Link to="/about" class="details-btn"><i class="fas fa-plus"></i></Link>
+                            </div>
+    
+                            <div class="doctor-content">
+                                <h3><Link to="/about">Dr. Steve Ideyi MD</Link></h3>
+                                <span>Nephrologists</span>
+    
+                                <ul class="social">
+                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box">
+                            <div class="doctor-image">
+                                <img src="assets/img/doctor/2.jpg" alt=""/>
+    
+                                <Link to="/about" class="details-btn"><i class="fas fa-plus"></i></Link>
+                            </div>
+    
+                            <div class="doctor-content">
+                                <h3><Link to="/about">Dr. Tyrone Johnson MD</Link></h3>
+                                <span>Dermatologists</span>
+    
+                                <ul class="social">
+                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box">
+                            <div class="doctor-image">
+                                <img src="assets/img/doctor/3.jpg" alt=""/>
+    
+                                <Link to="/about" class="details-btn"><i class="fas fa-plus"></i></Link>
+                            </div>
+    
+                            <div class="doctor-content">
+                                <h3><Link to="/about">Tonge</Link></h3>
+                                <span>Endocrinologists</span>
+    
+                                <ul class="social">
+                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box">
+                            <div class="doctor-image">
+                                <img src="assets/img/doctor/4.jpg" alt=""/>
+    
+                                <Link to="/about" class="details-btn"><i class="fas fa-plus"></i></Link>
+                            </div>
+    
+                            <div class="doctor-content">
+                                <h3><Link to="/about">Karey Nesbeth NP</Link></h3>
+                                <span>Gastroenterologists</span>
+    
+                                <ul class="social">
+                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box">
+                            <div class="doctor-image">
+                                <img src="assets/img/doctor/6.jpg" alt=""/>
+    
+                                <Link to="/about" class="details-btn"><i class="fas fa-plus"></i></Link>
+                            </div>
+    
+                            <div class="doctor-content">
+                                <h3><Link to="/about">Vincent NZE NP</Link></h3>
+                                <span>Endocrinologists</span>
+    
+                                <ul class="social">
+                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
+        </section>
         <section class="about-area ptb-100">
             <div class="container-fluid p-0">
                 <div class="row m-0">
