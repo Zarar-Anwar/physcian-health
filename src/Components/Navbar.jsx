@@ -54,7 +54,7 @@ const Navbar=()=>{
                                 <div class="others-options">
                                    
     
-                                    <Link to="/contact" class="btn btn-primary">Contact Us</Link>
+                                    <Link to="/contact" class="btn btn-success">Contact Us</Link>
                                 </div>
                             </div>
                         </nav>
