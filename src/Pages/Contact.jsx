@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom"
 
 function Contact() {
+    const handleEmail=async(email)=>{
+        window.open(`mailto:${email}`)
+    }
+    const handlePhone=async(Phone)=>{
+        window.location.href(`tel:${Phone}`)
+    }
   return (
     <>
       <section class="page-title-area page-title-bg4">
@@ -85,26 +91,29 @@ function Contact() {
                                         <i class="fas fa-map-marker-alt"></i>
                                     </div>
                                     <span>Address</span>
-                                    Comsats ATD &amp; Exalters Home 
+                                    1150 Wwbster Ave, 2nd FI Bronx &amp;NY 10456
                                 </li>
 
                                 <li>
-                                    <div class="icon">
-                                        <i class="fas fa-envelope"></i>
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
                                     </div>
-                                    <span>Email</span>
-                                    <a href="/contact">abc@email.com</a>
-                                    <a href="/contact">abc@email.com</a>
-                                </li>
+                                <span>Email</span>
+                                 <button onClick={handleEmail}>Contact@topcaremedicalclinic.com</button>
+                         <button onClick={handleEmail}>info@topcaremedicalclinic.com</button>   </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="fas fa-phone-volume"></i>
                                     </div>
                                     <span>Phone</span>
-                                    <a href="/contact">+123456789</a>
-                                    <a href="/contact">+123456789</a>
-                                </li>
+                                    <button onClick={()=>{
+                                        handlePhone('+13472715338')
+                                    }}>+13472715338</button>
+                                    <button onClick={()=>{
+                                        handlePhone('+13472715338')
+                                    }}>+13472715338</button>   
+                                    </li>
                             </ul>
                         </div>
                     </div>
