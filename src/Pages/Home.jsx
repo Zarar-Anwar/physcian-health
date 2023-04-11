@@ -8,7 +8,7 @@ function Home() {
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="page-title-content">
-                            <h2 style={{color:'#19ec67'}}>Experience healing beyond <br /> boundaries at our <br /> medical clinic</h2>
+                            <h2 style={{color:'#19ec67'}}>Experience healing <br /> beyond <br /> boundaries at our <br /> medical clinic</h2>
                         </div>
                     </div>
                 </div>

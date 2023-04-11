@@ -10,7 +10,7 @@ function Aboutus() {
                         <div class="page-title-content">
                             <h2>About Us</h2>
                             <ul>
-                                <li><Link to="index.html">Home</Link></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li>About Us</li>
                             </ul>
                         </div>
@@ -23,7 +23,7 @@ function Aboutus() {
                 <div class="section-title">
                     <span>Doctors</span>
                     <h2>Meet Our Qualified Physicians</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Physicians are entrusted with the responsibility of caring for their patients' health and well-being, often under difficult and stressful circumstances</p>
                 </div>
 
                 <div class="row">
@@ -39,12 +39,7 @@ function Aboutus() {
                                 <h3><Link to="/about">Dr. Omar Ahmed</Link></h3>
                                 <span>Cardiologists</span>
     
-                                <ul class="social">
-                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
-                                </ul>
+                               
                             </div>
                         </div>
                     </div>
@@ -61,12 +56,7 @@ function Aboutus() {
                                 <h3><Link to="/about">Dr. Steve Ideyi MD</Link></h3>
                                 <span>Nephrologists</span>
     
-                                <ul class="social">
-                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
-                                </ul>
+                              
                             </div>
                         </div>
                     </div>
@@ -83,12 +73,7 @@ function Aboutus() {
                                 <h3><Link to="/about">Dr. Tyrone Johnson MD</Link></h3>
                                 <span>Dermatologists</span>
     
-                                <ul class="social">
-                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
-                                </ul>
+                               
                             </div>
                         </div>
                     </div>
@@ -105,12 +90,7 @@ function Aboutus() {
                                 <h3><Link to="/about">Tonge</Link></h3>
                                 <span>Endocrinologists</span>
     
-                                <ul class="social">
-                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
-                                </ul>
+                              
                             </div>
                         </div>
                     </div>
@@ -127,12 +107,7 @@ function Aboutus() {
                                 <h3><Link to="/about">Karey Nesbeth NP</Link></h3>
                                 <span>Gastroenterologists</span>
     
-                                <ul class="social">
-                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
-                                </ul>
+                              
                             </div>
                         </div>
                     </div>
@@ -149,12 +124,7 @@ function Aboutus() {
                                 <h3><Link to="/about">Vincent NZE NP</Link></h3>
                                 <span>Endocrinologists</span>
     
-                                <ul class="social">
-                                    <li><Link to="/about"><i class="fab fa-facebook-f"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-twitter"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-linkedin-in"></i></Link></li>
-                                    <li><Link to="/about"><i class="fab fa-instagram"></i></Link></li>
-                                </ul>
+                              
                             </div>
                         </div>
                     </div>

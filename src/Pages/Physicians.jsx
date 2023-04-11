@@ -17,7 +17,7 @@ function Physicians() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section>  <hr style={{borderColor:'Green'}}/>
         <section class="doctor-details-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
@@ -27,12 +27,7 @@ function Physicians() {
 
                             <h3>Dr. Omar Ahmed MD</h3>
                             <span>Cardiologists</span>
-                            <ul class="social">
-                                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                           
                         </div>
                     </div>
 
@@ -49,7 +44,7 @@ function Physicians() {
             </div>
 
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
-        </section>
+        </section><hr style={{borderColor:'Green'}}/>
         <section class="doctor-details-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
@@ -69,12 +64,7 @@ function Physicians() {
                             <h3>Dr. Steve Ideyi MD</h3>
                             <span>Cardiologists</span>
 
-                            <ul class="social">
-                                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                           
                         </div>
                     </div>
 
@@ -82,7 +72,7 @@ function Physicians() {
             </div>
 
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
-        </section>
+        </section><hr style={{borderColor:'Green'}}/>
         <section class="doctor-details-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
@@ -93,12 +83,7 @@ function Physicians() {
                             <h3>Dr. Tyrone johnson MD</h3>
                             <span>Cardiologists</span>
 
-                            <ul class="social">
-                                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                           
                         </div>
                     </div>
 
@@ -115,7 +100,7 @@ function Physicians() {
             </div>
 
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
-        </section>
+        </section><hr style={{borderColor:'Green'}}/>
         
         <section class="doctor-details-area ptb-100">
             <div class="container">
@@ -136,12 +121,7 @@ function Physicians() {
                             <h3>Dr. Tonge</h3>
                             <span>Cardiologists</span>
 
-                            <ul class="social">
-                                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                           
                         </div>
                     </div>
 
@@ -149,7 +129,7 @@ function Physicians() {
             </div>
 
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
-        </section>
+        </section><hr style={{borderColor:'Green'}}/>
         <section class="doctor-details-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
@@ -160,12 +140,7 @@ function Physicians() {
                             <h3>Dr. Karey Nesbeth NP</h3>
                             <span>Cardiologists</span>
 
-                            <ul class="social">
-                                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                          
                         </div>
                     </div>
 
@@ -182,7 +157,7 @@ function Physicians() {
             </div>
 
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
-        </section>
+        </section><hr style={{borderColor:'Green'}}/>
         <section class="doctor-details-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
@@ -202,12 +177,7 @@ function Physicians() {
                             <h3>Dr. Vincent NZE NP</h3>
                             <span>Cardiologists</span>
 
-                            <ul class="social">
-                                <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+                            
                         </div>
                     </div>
 
@@ -215,7 +185,7 @@ function Physicians() {
             </div>
 
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
-        </section>
+        </section><hr style={{borderColor:'Green'}}/>
     </>
   )
 }
