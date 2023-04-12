@@ -47,73 +47,73 @@ function Insurances() {
                   <div class='row justify-content-center'>
                   
                   <div class=" partner-item">
-                            <img src={UHC}   alt=""/>
+                            <img style={{height:'80px'}} src={UHC}   alt=""/>
                     </div>
 
                     <div class=" partner-item">
-                            <img src={molinahealthcare} alt=""/>
+                            <img style={{height:'80px'}} src={molinahealthcare} alt=""/>
                     </div>
                     <div class=" partner-item">
-                            <img src={SWH} alt=""/>
+                            <img style={{height:'80px'}} src={SWH} alt=""/>
                     </div>
                     <hr style={{borderColor:'green'}}/>
                     <div class="  partner-item">
-                            <img src={centerplanforliving} alt=""/>
+                            <img style={{height:'80px'}} src={centerplanforliving} alt=""/>
                     </div>
                     <div class="  partner-item">
-                            <img src={hamaspikchoice} alt=""/>
+                            <img style={{height:'80px'}} src={hamaspikchoice} alt=""/>
                     </div>
                     <div class="  partner-item">
-                            <img src={magellan} alt=""/>
+                            <img style={{height:'80px'}} src={magellan} alt=""/>
                     </div>
                     <hr style={{borderColor:'green'}}/>
 
                     <div class="  partner-item">
-                            <img src={AgeWell} alt=""/>
+                            <img style={{height:'80px'}} src={AgeWell} alt=""/>
                     </div>
                     <div class="  partner-item">
-                            <img src={partnerhealthplan_PHP} alt=""/>
+                            <img style={{height:'80px'}} src={partnerhealthplan_PHP} alt=""/>
                     </div>
                     <div class="  partner-item">
-                            <img src={Integra} alt=""/>
+                            <img style={{height:'80px'}} src={Integra} alt=""/>
                     </div>
                     <hr style={{borderColor:'green'}}/>
 
                     <div class="   partner-item">
-                            <img src={caretocare} alt=""/>
+                            <img style={{height:'80px'}} src={caretocare} alt=""/>
                     </div>
                     <div class="  partner-item ">
                         
-                            <img src={fidelis} alt=""/>                        
+                            <img style={{height:'80px'}} src={fidelis} alt=""/>                        
                         
                     </div>
 
                     <div class="   partner-item">
-                            <img src={Medical} alt=""/>
+                            <img style={{height:'80px'}} src={Medical} alt=""/>
                     </div>
                     <hr style={{borderColor:'green'}}/>
 
                     <div class="   partner-item ">
                         
-                            <img src={metroplus} alt=""/>
+                            <img style={{height:'80px'}} src={metroplus} alt=""/>
                         
                     </div>
 
                     <div class="   partner-item">
-                            <img src={wellcare} alt=""/>
+                            <img style={{height:'80px'}} src={wellcare} alt=""/>
                     </div>
 
                     <div class="   partner-item">
-                            <img src={BCB} alt=""/>
+                            <img style={{height:'80px'}} src={BCB} alt=""/>
                     </div>
                     <hr style={{borderColor:'green'}}/>
 
                     <div class="  partner-item">
-                            <img src={Villagecare} alt=""/>
+                            <img style={{height:'80px'}} src={Villagecare} alt=""/>
                     </div>
 
                     <div class="  partner-item ">
-                            <img src={elderplan} alt=""/>
+                            <img style={{height:'80px'}} src={elderplan} alt=""/>
                     </div>
                     <hr style={{borderColor:'green'}}/>
 
