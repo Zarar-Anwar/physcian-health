@@ -49,6 +49,7 @@ const Navbar=()=>{
                                     </li>
         
                                     <li class="nav-item"><Link to="/about" class="nav-link">About Us</Link></li>
+                                    <li class="nav-item"><Link to="/contact" class="nav-link">Contact Us</Link></li>
                                 </ul>
     
                                 <div class="others-options">

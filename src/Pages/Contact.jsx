@@ -24,6 +24,8 @@ function Contact() {
                 </div>
             </div>
         </section>
+           
+       
         <section class="contact-area ptb-100">
             <div class="container">
                 <div class="section-title">

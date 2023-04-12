@@ -3356,7 +3356,7 @@ Partner Area CSS
   padding-right: 5px;
 }
 
-.partner-item a {
+.partner-item :hover {
   display: block;
   padding: 25px;
   background: #ffffff;
@@ -3365,7 +3365,7 @@ Partner Area CSS
   margin-bottom: 10px;
 }
 
-.partner-item a::before, .partner-item a::after {
+.partner-item :hover::before, .partner-item a::after {
   content: '';
   position: absolute;
   width: 0;
@@ -3376,33 +3376,33 @@ Partner Area CSS
   transition: 0.5s;
 }
 
-.partner-item a::before {
+.partner-item :hover::before {
   left: 0;
   top: 0;
   border-left: 3px solid #19ce67;
   border-top: 3px solid #19ce67;
 }
 
-.partner-item a::after {
+.partner-item :hover::after {
   right: 0;
   bottom: 0;
   border-right: 3px solid #19ce67;
   border-bottom: 3px solid #19ce67;
 }
 
-.partner-item a img {
+.partner-item :hover img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.partner-item a:hover::after, .partner-item a:hover::before {
+.partner-item :hover::after, .partner-item a:hover::before {
   width: 40px;
   height: 40px;
   opacity: 1;
   visibility: visible;
 }
 
-.partner-item a:hover img {
+.partner-item :hover img {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
 }
