@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom"
 
 function Contact() {
-    const handleEmail=async(email)=>{
-        window.open(`mailto:${email}`)
-    }
-    const handlePhone=async(Phone)=>{
-        window.location.href(`tel:${Phone}`)
-    }
+    
   return (
     <>
       <section class="page-title-area page-title-bg4">
@@ -93,7 +88,7 @@ function Contact() {
                                         <i class="fas fa-map-marker-alt"></i>
                                     </div>
                                     <span>Address</span>
-                                    1150 Wwbster Ave, 2nd FI Bronx &amp;NY 10456
+                                    1150 Webster Ave, 2nd Floor <br /> Bronx &amp;NY 10456
                                 </li>
 
                                 <li>
@@ -101,20 +96,15 @@ function Contact() {
                                     <i class="fas fa-envelope"></i>
                                     </div>
                                 <span>Email</span>
-                                 <button onClick={handleEmail}>Contact@topcaremedicalclinic.com</button>
-                         <button onClick={handleEmail}>info@topcaremedicalclinic.com</button>   </li>
+                                 Contact@topcaremedicalclinic.com <br />
+                                 info@topcaremedicalclinic.com </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="fas fa-phone-volume"></i>
                                     </div>
                                     <span>Phone</span>
-                                    <button onClick={()=>{
-                                        handlePhone('+13472715338')
-                                    }}>+13472715338</button>
-                                    <button onClick={()=>{
-                                        handlePhone('+13472715338')
-                                    }}>+13472715338</button>   
+                                 +13472715338 
                                     </li>
                             </ul>
                         </div>

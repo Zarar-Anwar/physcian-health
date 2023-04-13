@@ -1,20 +1,66 @@
 import { Link } from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.css';
+import { Carousel } from 'react-bootstrap';
+import { useEffect, useState } from "react";
+import pic1 from './assets/img/main-banner3.jpg'
+import pic2 from './assets/img/main-banner1.jpg'
+import pic3 from './assets/img/main-banner2.jpg'
 
 function Home() {
+        const [index, setIndex] = useState(0);
+        
+        const handleSelect = (selectedIndex, e) => {
+          setIndex(selectedIndex);
+        };
+      
+        useEffect(() => {
+          const timer = setInterval(() => {
+            setIndex((index + 1) % 3);
+          }, 3000);
+          return () => clearInterval(timer);
+        }, [index]);
+      
   return (
     <>
-      <section class="page-title-area page-title-bg4">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="page-title-content">
-                            <h2 style={{color:'#19ec67'}}>Experience healing <br /> beyond <br /> boundaries at our <br /> medical clinic</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="services-area ptb-100 specialities bg-f4f9fd">
+       <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={pic2}
+          alt="First slide"
+          style={{height:'550px'}}
+        />
+        <Carousel.Caption>
+          <h3 style={{fontSize:'50px',color:'#19ec67'}}>Women Care</h3>
+          <p style={{color:'black'}}>Exceptional Care for Women</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={pic1}
+          alt="First slide"
+          style={{height:'550px'}}
+        />
+        <Carousel.Caption>
+          <h3 style={{fontSize:'50px',color:'#19ec67'}}>Health Service</h3>
+          <p style={{color:'black'}}>Your Health is Our Top Priority</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={pic3}
+          alt="First slide"
+          style={{height:'550px'}}
+        />
+        <Carousel.Caption>
+          <h3 style={{fontSize:'50px',color:'#19ec67'}}>Best Healing Service</h3>
+          <p style={{color:'black'}}>Our Clinic is the No. 1 Clinic</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+       <section class="services-area ptb-100 specialities bg-f4f9fd">
             <div class="container">
             <div class="section-title">
                     <span>Main Specialities</span>
@@ -172,6 +218,94 @@ function Home() {
     visibility: "visible", 
     transform: "translateY(-37.6078px) translateZ(0px)" 
 }}></div></div></section>
+      <section class="our-vision-area ptb-100 pt-0" style={{marginTop:40}}>
+            <div class="container">
+                <div class="row">
+                <div class="our-mission-content col-lg-12 col-md-12 col-sm-12 text-center">
+                            <span class="sub-title">Our Mission &amp; Vision</span>
+                            <h2>Better Information, Better Health</h2>
+                          <p style={{fontSize:"20px"}}>"Empowering with knowledge for a healthier tomorrow"<br />
+"Transforming healthcare with informed decisions"</p>
+                        </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="single-vision-box">
+                            <div class="icon">
+                                <i class="flaticon-check-mark"></i>
+                            </div>
+
+                            <h3 style={{textAlign:'center',fontSize:'30px'}}>Our Mission</h3>
+                        <p>Our goal at the medical clinic is to provide comprehensive and compassionate
+healthcare to our patients. We are committed to delivering high-quality medical care in a
+welcoming and respectful environment. Our team of healthcare professionals is
+dedicated to promoting health and wellness and helping patients achieve optimal
+physical and mental health. <br />
+We strive to provide patient-centered care that is tailored to each individual's unique
+needs and concerns. Whether you are seeking primary care, pain management, physical
+therapy, neurology, podiatry, or urology services, we are here to help you achieve your
+health goals and improve your quality of life. <br />
+Our medical clinic is committed to staying up-to-date with the latest advancements in
+medical technology and treatments to ensure that our patients receive the best possible
+care. We believe that our patients deserve nothing less than excellence in healthcare,
+and we are dedicated to delivering that every day.
+</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-vision-box">
+                            <div class="icon">
+                                <i class="flaticon-check-mark"></i>
+                            </div>
+
+                            <h3 style={{textAlign:'center'}}>Our Planning</h3>
+                         <p>At the medical clinic, we believe in careful planning to ensure that we can deliver
+high-quality care to our patients. Our planning process includes: <br />
+1. Patient Needs Assessment: <br />
+2. Resource Allocation:<br />
+3. Continuous Improvement:<br />
+4. Training and Development:<br />
+5. Technology and Innovation:<br />
+Overall, our planning process is focused on delivering high-quality care that is
+patient-centered, efficient, and effective.<br />
+</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="single-vision-box">
+                            <div class="icon">
+                                <i class="flaticon-check-mark"></i>
+                            </div>
+
+                            <h3 style={{textAlign:'center'}}>Our Vision</h3>
+                            <p>Our vision at the medical clinic is to be a leading healthcare provider in the community,
+known for delivering high-quality, patient-centered care. We aspire to create an
+environment where patients feel heard, respected, and cared for, and where healthcare
+professionals are empowered to provide the best possible care.
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="doctor-area ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Office Address</h2>
+                <p>Our office is located at 1150 Webster Ave, Bronx NY 10456. If you need to schedule an
+appointment or have any questions, please feel free to contact us at 347-271-7666. We
+are open Monday through Friday from 9:00 am to 5:00 pm, and we look forward to
+serving you.
+</p>
+                </div>
+            </div>
+
+            <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
+            <div className="text-center">
+
+        <iframe width='800' height='550' title='frame' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26396.760604940122!2d73.24352090160522!3d34.20782100010116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1681414447746!5m2!1sen!2s"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </>
   )
 }
