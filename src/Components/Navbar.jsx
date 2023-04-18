@@ -1,4 +1,4 @@
-import { useMediaQuery, useTheme } from "@mui/material"
+import { Box, Button, useMediaQuery, useTheme } from "@mui/material"
 import { Link } from "react-router-dom"
 import DrawerCom from "./Drawer"
 
@@ -9,7 +9,32 @@ const Navbar=()=>{
     const isMatch=useMediaQuery(theme.breakpoints.down('md'))
     return (
         <>
-         
+          <div class="top-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <ul class="header-contact-info">
+                                <li><i class="far fa-clock"></i> Mon - Fri 09:00 - 19:00</li>
+                                <li><i class="fas fa-phone"></i> Call Us: <Link to="/contact">+13472715338</Link></li>
+                                <li><i class="far fa-paper-plane"></i> <Link  to="/contact"> Contact@topcaremedicalclinic.com <br />info@topcaremedicalclinic.com</Link></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="header-right-content">
+                                <ul class="top-header-social">
+                                    <li><Link to="/"><i class="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="/"><i class="fab fa-twitter"></i></Link></li>
+                                    <li><Link to="/"><i class="fab fa-linkedin-in"></i></Link></li>
+                                    <li><Link to="/"><i class="fab fa-instagram"></i></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <Box sx={{textAlign:"center",marginTop:"20px"}}>
+                <Button variant="contained" color="success">ADD APPOITNMENT</Button>
+            </Box>
+            </div>
         {isMatch ?(
             <>
                 <div style={{display:"flex",marginTop:'5px'}}>
@@ -25,8 +50,7 @@ const Navbar=()=>{
           </>
         ):(
         <header class="header-area">
-           
-
+          
             <div class="navbar-area">
                 <div class="fovia-nav">
                     <div class="container">
@@ -62,7 +86,6 @@ const Navbar=()=>{
                     </div>
                 </div>
             </div>
-           
         </header>
            )
         }
