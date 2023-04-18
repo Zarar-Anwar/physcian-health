@@ -1,8 +1,7 @@
-import { Box, Button, useMediaQuery, useTheme } from "@mui/material"
+import { Modal,Box, Button, useMediaQuery, useTheme } from "@mui/material"
 import { Link } from "react-router-dom"
 import DrawerCom from "./Drawer"
 import Appointment from "../Pages/Appointment"
-import { Modal } from "@material-ui/core"
 import { useState } from "react"
 
 
