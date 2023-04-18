@@ -1,12 +1,24 @@
 import { Box, Button, useMediaQuery, useTheme } from "@mui/material"
 import { Link } from "react-router-dom"
 import DrawerCom from "./Drawer"
+import Appointment from "../Pages/Appointment"
+import { Modal } from "@material-ui/core"
+import { useState } from "react"
 
 
 
 const Navbar=()=>{
     const theme=useTheme()
     const isMatch=useMediaQuery(theme.breakpoints.down('md'))
+    const [open, setOpen] = useState(false);
+    const handleOpen = () => {
+        setOpen(true);
+      };
+    
+      const handleClose = () => {
+        setOpen(false);
+        window.location.reload()
+      };
     return (
         <>
           <div class="top-header">
@@ -15,8 +27,8 @@ const Navbar=()=>{
                         <div class="col-lg-8">
                             <ul class="header-contact-info">
                                 <li><i class="far fa-clock"></i> Mon - Fri 09:00 - 19:00</li>
-                                <li><i class="fas fa-phone"></i> Call Us: <Link to="/contact">+13472715338</Link></li>
-                                <li><i class="far fa-paper-plane"></i> <Link  to="/contact"> Contact@topcaremedicalclinic.com <br />info@topcaremedicalclinic.com</Link></li>
+                                <li><i class="fas fa-phone"></i> Call Us: +13472715338</li>
+                                <li><i class="far fa-paper-plane"></i> Contact@topcaremedicalclinic.com</li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
@@ -32,8 +44,11 @@ const Navbar=()=>{
                     </div>
                 </div>
             <Box sx={{textAlign:"center",marginTop:"20px"}}>
-                <Button variant="contained" color="success">ADD APPOITNMENT</Button>
+                <Button variant="contained" onClick={handleOpen} color="success">ADD APPOITNMENT</Button>
             </Box>
+        <Modal open={open} onClose={handleClose}>
+        {<Appointment  />}
+      </Modal>  
             </div>
         {isMatch ?(
             <>

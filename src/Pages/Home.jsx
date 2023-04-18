@@ -15,51 +15,73 @@ function Home() {
       
         useEffect(() => {
           const timer = setInterval(() => {
-            setIndex((index + 1) % 3);
+            setIndex((index + 1) % 4);
           }, 3000);
           return () => clearInterval(timer);
         }, [index]);
       
   return (
     <>
-       <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={pic2}
-          alt="First slide"
-          style={{height:'550px'}}
-        />
-        <Carousel.Caption>
-          <h3 style={{fontSize:'50px',color:'#19ec67'}}>Women Care</h3>
-          <p style={{color:'black'}}>Exceptional Care for Women</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={pic1}
-          alt="First slide"
-          style={{height:'550px'}}
-        />
-        <Carousel.Caption>
-          <h3 style={{fontSize:'50px',color:'#19ec67'}}>Health Service</h3>
-          <p style={{color:'black'}}>Your Health is Our Top Priority</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={pic3}
-          alt="First slide"
-          style={{height:'550px'}}
-        />
-        <Carousel.Caption>
-          <h3 style={{fontSize:'50px',color:'#19ec67'}}>Best Healing Service</h3>
-          <p style={{color:'black'}}>Our Clinic is the No. 1 Clinic</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={pic3}
+      alt="First slide"
+      style={{height:'550px'}}
+    />
+    <Carousel.Caption>
+      <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
+        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Welcome to Top Care <br />Medical Clinic</h3>
+        <p style={{color:'white'}}>Service we Offer <br />Pain Management <br />Physical Therapy <br />Neurology <br />Podiatry <br />Psychology <br />Urology <br />Worker's Comp/No Fault </p>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={pic2}
+      alt="First slide"
+      style={{height:'550px'}}
+    />
+    <Carousel.Caption>
+      <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
+        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Insurance We Accept</h3>
+        <p style={{color:'white'}}>MetroPlus <br />Fidelis <br />United HeaLth Care <br />Wellcare <br />Elder Plan <br />Village care Max <br />Center Plan fro Health <br />Empire BCBS</p>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={pic1}
+      alt="First slide"
+      style={{height:'550px'}}
+    />
+    <Carousel.Caption>
+      <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
+        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Pain Management & Family Meidicine</h3>
+        <p style={{color:'white'}}>Injections <br />Counseling <br />Rehabiliation <br />Shockwave Therapy <br />EMG/NCV Testing <br />ABI/EEG Testing</p>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={pic3}
+      alt="First slide"
+      style={{height:'550px'}}
+    />
+    <Carousel.Caption>
+      <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
+        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Physical Therapy & Neurology</h3>
+        <p style={{color:'white'}}>Excercise to reduce pain <br />Hot Pack <br />Electric stimulation <br />Streching <br />Back Body Massage <br />Shoulder Massage </p>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+ 
+</Carousel>
+
        <section class="services-area ptb-100 specialities bg-f4f9fd">
             <div class="container">
             <div class="section-title">
@@ -303,7 +325,7 @@ serving you.
             <div class="shape3"><img src="assets/img/shape/3.png" class="wow fadeInLeft animated" alt="" style={{visibility:"visible"}}/></div>
             <div className="text-center">
 
-        <iframe width='800' height='550' title='frame' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26396.760604940122!2d73.24352090160522!3d34.20782100010116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1681414447746!5m2!1sen!2s"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe width='100%' height='550' title='frame' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26396.760604940122!2d73.24352090160522!3d34.20782100010116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1681414447746!5m2!1sen!2s"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </>
