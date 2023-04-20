@@ -6,7 +6,6 @@ import pic1 from './assets/img/Pic1.png'
 import pic2 from './assets/img/Pic2.png'
 import pic3 from './assets/img/Pic3.png'
 import pic4 from './assets/img/Pic4.png'
-import "./Home.css"
 
 function Home() {    
     const [index, setIndex] = useState(0);
