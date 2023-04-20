@@ -221,7 +221,7 @@ function Home() {
                           <p style={{fontSize:"20px"}}>"Empowering with knowledge for a healthier tomorrow"<br />
 "Transforming healthcare with informed decisions"</p>
                         </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style={{marginTop:"10px"}}>
                         <div class="single-vision-box">
                             <div class="icon">
                                 <i class="flaticon-check-mark"></i>
