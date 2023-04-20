@@ -6,8 +6,10 @@ import pic1 from './assets/img/main-banner3.jpg'
 import pic2 from './assets/img/main-banner1.jpg'
 import pic3 from './assets/img/main-banner2.jpg'
 
-function Home() {
-        const [index, setIndex] = useState(0);
+
+
+function Home() {    
+    const [index, setIndex] = useState(0);
         
         const handleSelect = (selectedIndex, e) => {
           setIndex(selectedIndex);
@@ -22,8 +24,8 @@ function Home() {
       
   return (
     <>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-    <Carousel.Item>
+    <Carousel activeIndex={index} onSelect={handleSelect} style={{maxWidth:'1000px', margin:'0 auto'}}>
+  <Carousel.Item>
     <img
       className="d-block w-100"
       src={pic3}
@@ -32,8 +34,17 @@ function Home() {
     />
     <Carousel.Caption>
       <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
-        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Welcome to Top Care <br />Medical Clinic</h3>
-        <p style={{color:'white'}}>Service we Offer <br />Pain Management <br />Physical Therapy <br />Neurology <br />Podiatry <br />Psychology <br />Urology <br />Worker's Comp/No Fault </p>
+        <h3 style={{fontSize:'50px',color:'#19ec67', marginBottom: '20px'}}>Welcome to Top Care Medical Clinic</h3>
+        <p style={{color:'white', fontSize: '24px', lineHeight: '1.5'}}>
+          Service we Offer: <br />
+          - Pain Management <br />
+          - Physical Therapy <br />
+          - Neurology <br />
+          - Podiatry <br />
+          - Psychology <br />
+          - Urology <br />
+          - Worker's Comp/No Fault
+        </p>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -46,8 +57,17 @@ function Home() {
     />
     <Carousel.Caption>
       <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
-        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Insurance We Accept</h3>
-        <p style={{color:'white'}}>MetroPlus <br />Fidelis <br />United HeaLth Care <br />Wellcare <br />Elder Plan <br />Village care Max <br />Center Plan fro Health <br />Empire BCBS</p>
+        <h3 style={{fontSize:'50px',color:'#19ec67', marginBottom: '20px'}}>Insurance We Accept</h3>
+        <p style={{color:'white', fontSize: '24px', lineHeight: '1.5'}}>
+          - MetroPlus <br />
+          - Fidelis <br />
+          - United HeaLth Care <br />
+          - Wellcare <br />
+          - Elder Plan <br />
+          - Village care Max <br />
+          - Center Plan fro Health <br />
+          - Empire BCBS
+        </p>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -60,8 +80,15 @@ function Home() {
     />
     <Carousel.Caption>
       <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
-        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Pain Management & Family Meidicine</h3>
-        <p style={{color:'white'}}>Injections <br />Counseling <br />Rehabiliation <br />Shockwave Therapy <br />EMG/NCV Testing <br />ABI/EEG Testing</p>
+        <h3 style={{fontSize:'50px',color:'#19ec67', marginBottom: '20px'}}>Pain Management & Family Medicine</h3>
+        <p style={{color:'white', fontSize: '24px', lineHeight: '1.5'}}>
+        -Excercise to reduce pain <br />
+        -Hot Pack <br />
+        -Electric stimulation <br />
+        -Streching <br />
+        -Back Body Massage <br />
+        -Shoulder Massage 
+        </p>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -72,14 +99,20 @@ function Home() {
       alt="First slide"
       style={{height:'550px'}}
     />
-    <Carousel.Caption>
+     <Carousel.Caption>
       <div style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px'}}>
-        <h3 style={{fontSize:'50px',color:'#19ec67'}}>Physical Therapy & Neurology</h3>
-        <p style={{color:'white'}}>Excercise to reduce pain <br />Hot Pack <br />Electric stimulation <br />Streching <br />Back Body Massage <br />Shoulder Massage </p>
+        <h3 style={{fontSize:'50px',color:'#19ec67', marginBottom: '20px'}}>Physical Therapy & Neurology</h3>
+        <p style={{color:'white', fontSize: '24px', lineHeight: '1.5'}}>
+          - Injections <br />
+          - Counseling <br />
+          - Rehabilitation <br />
+          - Shockwave Therapy <br />
+          - EMG/NCV Testing <br />
+          - ABI/EEG Testing
+        </p>
       </div>
     </Carousel.Caption>
-  </Carousel.Item>
- 
+    </Carousel.Item>
 </Carousel>
 
        <section class="services-area ptb-100 specialities bg-f4f9fd">
